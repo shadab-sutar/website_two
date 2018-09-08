@@ -1,0 +1,360 @@
+.App {
+  overflow: hidden;
+}
+.banner-grid {
+  width: 100%;
+  display: inline-flex;
+  padding: 20px 0px;
+  background-color: #fffffe;
+}
+
+#bg-1 {
+  width: 28%;
+  text-align: center;
+}
+
+#bg-2 {
+  width: 68%;
+  text-align: center;
+}
+
+.banner-image {
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+  margin-left: 10px;
+  text-align: center;
+  box-shadow: 1px 1px 20px 5px lightgray;
+}
+
+.img-subtitle {
+  text-align: center;
+  padding-left: 20px;
+}
+
+.banner-right-cell {
+  width: 68%;
+  text-align: center;
+}
+
+.title {
+  font-size: 90px;
+  margin-bottom: 0px;
+}
+
+#title-2 {
+  color: #0e58ce;
+}
+
+.social-media {
+  margin-bottom: 0px;
+}
+
+.social-media > a {
+  display: inline-flex;
+  margin: 10px;
+  font-size: 40px;
+  text-decoration: none;
+  color: black;
+}
+
+.social-media > a:hover {
+  color: #0e58ce;
+}
+
+.action-btn {
+  display: inline-flex;
+  text-align: center;
+  margin-top: 0px;
+}
+
+.action-btn > a {
+  text-decoration: none;
+  margin: 10px;
+}
+
+.btn {
+  vertical-align: middle;
+  border: 1px solid #0e58ce;
+  padding: 10px;
+  width: 120px;
+  text-align: center;
+  border-radius: 22px;
+  color: #0e58ce;
+}
+
+.btn:hover {
+  background-color: #0e58ce;
+  color: white;
+}
+
+.content-1-grid {
+  background-color: #edc62a;
+  width: 100%;
+  display: inline-flex;
+  padding: 20px;
+}
+
+.subtitle-2 {
+  margin: 0px;
+  font-size: 32px;
+  text-align: justify;
+}
+
+#c1g-1 {
+  width: 54%;
+  text-align: justify;
+  margin-right: 40px;
+}
+
+#c1g-2 {
+  width: 38%;
+  text-align: justify;
+  margin-right: 15px;
+}
+
+.project-content {
+  width: 100%;
+  padding: 20px;
+  text-align: center;
+}
+
+#prj-1 {
+  display: grid;
+  padding-top: 20px;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-row-gap: 30px;
+  text-align: center;
+}
+
+.prj-box {
+  width: 90%;
+  height: 300px;
+  padding-bottom: 5px;
+  box-shadow: 1px 1px 20px 5px lightgray;
+}
+
+.prj-title {
+  height: 40px;
+  background-color: whitesmoke;
+  color: black;
+  margin: 0px;
+  font-size: 20px;
+  text-align: center;
+  line-height: 40px;
+}
+
+.prj-text {
+  height: 220px;
+  text-align: justify;
+  margin: 5px;
+}
+
+.prj-btn {
+  padding: 10px 80px;
+  background-color: #599ef2;
+  color: white;
+  text-decoration: none;
+  border-radius: 22px;
+}
+
+.prj-btn:hover {
+  box-shadow: 1px 1px 20px 5px lightgray;
+}
+
+.testimonials {
+  width: 100%;
+  padding: 20px;
+  background-color: #0e58ce;
+  height: 600px;
+}
+
+.contact-form {
+  width: 100%;
+  padding: 20px;
+  background-color: whitesmoke;
+}
+
+.footer {
+  width: 100%;
+  padding: 20px;
+  background-color: #434444;
+  text-align: center;
+  color: white;
+}
+
+.text-data-foot {
+  margin: 0px;
+}
+
+.skill-name {
+  margin: 25px 0px 0px 0px;
+}
+
+.skill-bar-bg {
+  margin: 0px;
+  height: 4px;
+  width: 100%;
+  background-color: whitesmoke;
+}
+
+.comment {
+  height: 100px;
+  background-color: whitesmoke;
+  width: 60%;
+  border-radius: 0px 20px;
+  font-size: 20px;
+  text-align: center;
+}
+
+.left-comment {
+  float: left;
+}
+
+.right-comment {
+  float: right;
+  margin-right: 30px;
+}
+
+.comment-from {
+  float: right;
+  margin-right: 10px;
+  font-size: 16px;
+  font-style: italic;
+}
+
+.input {
+  width: 95%;
+  height: 30px;
+  margin-right: 30px;
+  margin-bottom: 20px;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-bottom: 3px solid #0e58ce;
+  background-color: whitesmoke;
+  outline: none;
+  font-size: 16px;
+}
+
+.textarea {
+  width: 95%;
+  margin-right: 30px;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-bottom: 3px solid #0e58ce;
+  background-color: whitesmoke;
+  outline: none;
+  font-size: 16px;
+}
+
+.label {
+  margin-bottom: 0px;
+}
+
+.msg-btn {
+  margin-top: 10px;
+  background-color: whitesmoke;
+}
+
+/*Media Queries*/
+/* Large desktop */
+@media (max-width: 1200px) {
+  #prj-1 {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+}
+
+/* Portrait tablet to landscape and desktop */
+@media (min-width: 768px) and (max-width: 1120px) {
+  .banner-image {
+    width: 200px;
+    height: 200px;
+  }
+
+  .title {
+    font-size: 60px;
+  }
+
+  .content-1-grid {
+    display: block;
+  }
+
+  #c1g-1,
+  #c1g-2 {
+    width: 100%;
+  }
+
+  .text-data {
+    margin-right: 40px;
+  }
+
+  #prj-1 {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+/* Landscape phone to portrait tablet */
+@media (max-width: 767px) {
+  .banner-grid {
+    display: block;
+  }
+
+  #bg-1 {
+    width: 100%;
+  }
+
+  #bg-2 {
+    width: 100%;
+  }
+  .banner-image {
+    width: 150px;
+    height: 150px;
+  }
+
+  .title {
+    font-size: 40px;
+  }
+
+  .content-1-grid {
+    display: block;
+  }
+
+  #c1g-1,
+  #c1g-2 {
+    width: 100%;
+  }
+
+  .text-data {
+    margin-right: 40px;
+  }
+
+  #prj-1 {
+    grid-template-columns: 1fr;
+  }
+
+  .subtitle-2 {
+    font-size: 22px;
+  }
+
+  .subtitle {
+    font-size: 12px;
+  }
+
+  .right-comment,
+  .left-comment {
+    width: 90%;
+    font-size: 16px;
+  }
+
+  .input,
+  .textarea {
+    width: 85%;
+    margin-right: 30px;
+  }
+}
+
+/* Landscape phones and down */
+@media (max-width: 480px) {
+}
