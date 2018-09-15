@@ -220,7 +220,7 @@ class App extends Component {
               <p>
                 "Shadab is an excellent worker"
                 <p className="comment-from">
-                  - Mirza Khan, Founder worldreviews.361db.com
+                  - Abdul Shaikh, Founder worldreviews.361db.com
                 </p>
               </p>
             </p>
